@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Project</title>
+</head>
+<body>
+
+    <canvas id="myCanvas" width="600" height="600" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML canvas tag.</canvas>
+        
+        
+    
+</body>
+<script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+
+
+    var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+
+
+
+/*ctx.font = "48px Verdana";
+// Create gradient
+
+var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+gradient.addColorStop("0", "#ff8f00");
+gradient.addColorStop("0.5", "#1e90ff");
+gradient.addColorStop("1.0", "#f08080");
+
+// Fill with gradient
+ctx.strokeStyle = gradient;
+ctx.strokeText("Jayden Antonio Sanchez", 5, 150);
+ctx.textAlign = 'left';*/
+
+
+
+
+
+
+    var c = document.getElementById('myCanvas');
+    var ctx = c.getContext('2d');
+    ctx.beginPath();
+    ctx.arc(200,400,150,0*Math.PI,2*Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = 'white';
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(200,400,115,0*Math.PI,2*Math.PI);
+    ctx.stroke()
+    ctx.fillStyle = 'black'
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(200,400,80,0*Math.PI,2*Math.PI);
+    ctx.stroke()
+    ctx.fillStyle = 'blue';
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(200,400,50,0*Math.PI,2*Math.PI);
+    ctx.stroke()
+    ctx.fillStyle = 'red';
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(200,400,23,0*Math.PI,2*Math.PI);
+    ctx.stroke()
+    ctx.fillStyle = 'yellow';
+    ctx.fill();
+
+
+    /*ctx.beginPath();
+    ctx.rect(150,150,200,150)
+    ctx.stroke();
+    ctx.fillStyle = 'orange';
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.rect(170,170,200,150)
+    ctx.stroke();
+    ctx.fillStyle = 'blue';
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.rect(190,190,200,150)
+    ctx.stroke();
+    ctx.fillStyle = 'red';
+    ctx.fill();*/
+   
+    /*ctx.moveTo(400,400);
+    ctx.lineTo(200,400);
+    ctx.stroke();
+
+    ctx.moveTo(200,100);
+    ctx.lineTo(200,400);
+    ctx.stroke();
+
+    ctx.moveTo(200,200);
+    ctx.lineTo(200,100);
+    ctx.stroke();
+
+    ctx.moveTo(400,100);
+    ctx.lineTo(200,100);
+    ctx.stroke();*/
+    
+
+   
+
+
+    </script>
+</html>
